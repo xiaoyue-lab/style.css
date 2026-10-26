@@ -50,7 +50,6 @@ header h1 {
 
   text-shadow: 2px 2px 5px rgba(26, 37, 54, 0.15); 
   }
-
 header h2 {
   color: lightskyblue;
   font-style: italic;           
@@ -127,6 +126,7 @@ a:hover {
   margin-bottom: 30px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);      
   }
+/*4 box*/
 #zen-supporting {
   display: grid;
   grid-template-columns: repeat(2, 1fr); 
@@ -137,8 +137,8 @@ a:hover {
 .participation h3, 
 .benefits h3, 
 .requirements h3 {
-	color: brown;
-	font-style: italic;
+   color: brown;
+    font-style: italic;
   }
 /* Individual Content Grid  */
 .explanation, 
@@ -160,10 +160,8 @@ a:hover {
 .participation, 
 .benefits, 
 .requirements {
-   color: white;
-   }
-
-
+  color: white;
+  }
 .explanation:hover, 
 .participation:hover, 
 .benefits:hover, 
@@ -209,6 +207,7 @@ a:hover {
 	cursor: pointer;
 	color: darkorange;
 	}
+
 footer {
 	text-align: center;
 	padding: 50px;	
@@ -217,32 +216,30 @@ footer a {
 	color: beige;
 	border-bottom-color: #bd0e57;
 	padding: 30px;
+  padding-bottom: 10px;
 	}
 .sidebar {
-	background-color: rgba(255, 255, 255, 0.85); 
-    padding: 35px;
+  padding: 35px;
  	border-radius: 14px;
-    box-sizing: border-box;
-    box-shadow: 0 10px 25px rgba(44, 62, 80, 0.05); 
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    transition: transform 0.3s ease;
-    background-image: url(https://i.ibb.co/mr33jfHL/OIP-1.webp); 
-    background-repeat: no-repeat;
-    background-size: cover;
-	width: 300px;
-	position: absolute;
-	color: #E0E5EC;
+  box-sizing: border-box;
+  box-shadow: 0 10px 25px rgba(44, 62, 80, 0.05); 
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  transition: transform 0.3s ease;
+  background-image: url(https://i.ibb.co/mr33jfHL/OIP-1.webp); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  position: absolute;
+  font-style: italic;
 	}
 .select {
 	color: #E0E5EC;
-	font-style: italic;
 	}
 .design-name {
 	color: #E6C687;
 	}
 .design-archives h3 {
 	color: #F5F5DC;
-  font-style: italic;
 	}
 .next,
 .viewall {
@@ -251,11 +248,9 @@ footer a {
 .next a,
 .viewall a {
 	color: #00FFFF;
-  	font-style: italic;
 	}
 .zen-resources h3{	
 	color: #FFD700;
-  font-style: italic;
 	}
 .zen-resources li a{
 	color: #A7F3D0;
